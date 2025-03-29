@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Resume Paper -->
+  <rect x="250" y="100" width="300" height="400" fill="white" stroke="#9F7AEA" stroke-width="4"/>
+  
+  <!-- Header Section -->
+  <rect x="270" y="120" width="260" height="60" fill="#F3E8FF"/>
+  <rect x="290" y="135" width="120" height="15" fill="#9F7AEA"/>
+  <rect x="290" y="155" width="80" height="10" fill="#C4B5FD"/>
+  
+  <!-- Content Lines -->
+  <rect x="270" y="200" width="260" height="2" fill="#E9D5FF"/>
+  <rect x="270" y="240" width="260" height="2" fill="#E9D5FF"/>
+  <rect x="270" y="280" width="260" height="2" fill="#E9D5FF"/>
+  <rect x="270" y="320" width="260" height="2" fill="#E9D5FF"/>
+  <rect x="270" y="360" width="260" height="2" fill="#E9D5FF"/>
+  
+  <!-- Bullet Points -->
+  <circle cx="290" cy="220" r="4" fill="#EC4899"/>
+  <circle cx="290" cy="260" r="4" fill="#EC4899"/>
+  <circle cx="290" cy="300" r="4" fill="#EC4899"/>
+  <circle cx="290" cy="340" r="4" fill="#EC4899"/>
+  
+  <!-- Pencil -->
+  <path d="M600 200 L 650 250 L 630 270 L 580 220 Z" fill="#9F7AEA"/>
+  <path d="M570 210 L 580 220 L 630 270 L 620 280 Z" fill="#C4B5FD"/>
+  <path d="M650 250 L 670 230 L 650 210 L 630 230 Z" fill="#EC4899"/>
+  
+  <!-- Floating Elements -->
+  <circle cx="180" cy="150" r="20" fill="#9F7AEA" opacity="0.6"/>
+  <circle cx="620" cy="400" r="25" fill="#EC4899" opacity="0.6"/>
+  <circle cx="200" cy="450" r="15" fill="#C4B5FD" opacity="0.6"/>
+</svg> 

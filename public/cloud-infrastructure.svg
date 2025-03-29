@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Server Rack -->
+  <rect x="200" y="100" width="400" height="400" rx="20" fill="#6B46C1"/>
+  
+  <!-- Server Units -->
+  <rect x="220" y="120" width="360" height="60" rx="10" fill="#1F2937"/>
+  <rect x="220" y="190" width="360" height="60" rx="10" fill="#1F2937"/>
+  <rect x="220" y="260" width="360" height="60" rx="10" fill="#1F2937"/>
+  <rect x="220" y="330" width="360" height="60" rx="10" fill="#1F2937"/>
+  <rect x="220" y="400" width="360" height="60" rx="10" fill="#1F2937"/>
+  
+  <!-- LED Lights -->
+  <circle cx="240" cy="150" r="5" fill="#10B981"/>
+  <circle cx="240" cy="220" r="5" fill="#10B981"/>
+  <circle cx="240" cy="290" r="5" fill="#10B981"/>
+  <circle cx="240" cy="360" r="5" fill="#10B981"/>
+  <circle cx="240" cy="430" r="5" fill="#10B981"/>
+  
+  <!-- Cloud Symbols -->
+  <circle cx="650" cy="150" r="40" fill="#9F7AEA"/>
+  <circle cx="690" cy="170" r="30" fill="#9F7AEA"/>
+  <circle cx="610" cy="170" r="30" fill="#9F7AEA"/>
+  
+  <!-- Connection Lines -->
+  <line x1="550" y1="150" x2="600" y2="150" stroke="#EC4899" stroke-width="4"/>
+  <line x1="550" y1="220" x2="600" y2="220" stroke="#EC4899" stroke-width="4"/>
+  <line x1="550" y1="290" x2="600" y2="290" stroke="#EC4899" stroke-width="4"/>
+  
+  <!-- Character -->
+  <circle cx="150" cy="250" r="40" fill="#EC4899"/>
+  <rect x="130" y="300" width="40" height="80" fill="#EC4899"/>
+</svg> 

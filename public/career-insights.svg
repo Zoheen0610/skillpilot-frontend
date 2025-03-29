@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Graph Background -->
+  <rect x="200" y="100" width="400" height="400" fill="#F3E8FF" rx="20"/>
+  
+  <!-- Grid Lines -->
+  <line x1="200" y1="200" x2="600" y2="200" stroke="#E9D5FF" stroke-width="2"/>
+  <line x1="200" y1="300" x2="600" y2="300" stroke="#E9D5FF" stroke-width="2"/>
+  <line x1="200" y1="400" x2="600" y2="400" stroke="#E9D5FF" stroke-width="2"/>
+  
+  <!-- Bar Chart -->
+  <rect x="250" y="350" width="40" height="150" fill="#9F7AEA"/>
+  <rect x="350" y="250" width="40" height="250" fill="#9F7AEA"/>
+  <rect x="450" y="150" width="40" height="350" fill="#9F7AEA"/>
+  <rect x="550" y="200" width="40" height="300" fill="#9F7AEA"/>
+  
+  <!-- Line Graph -->
+  <path d="M250 300 C 350 400, 450 200, 550 250" stroke="#EC4899" stroke-width="4" fill="none"/>
+  
+  <!-- Data Points -->
+  <circle cx="250" cy="300" r="8" fill="#EC4899"/>
+  <circle cx="350" cy="400" r="8" fill="#EC4899"/>
+  <circle cx="450" cy="200" r="8" fill="#EC4899"/>
+  <circle cx="550" cy="250" r="8" fill="#EC4899"/>
+  
+  <!-- Floating Icons -->
+  <circle cx="150" cy="150" r="20" fill="#C4B5FD"/>
+  <circle cx="650" cy="150" r="20" fill="#C4B5FD"/>
+  <circle cx="150" cy="450" r="20" fill="#C4B5FD"/>
+  <circle cx="650" cy="450" r="20" fill="#C4B5FD"/>
+</svg> 

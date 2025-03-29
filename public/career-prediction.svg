@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Target with Arrows -->
+  <circle cx="400" cy="300" r="150" fill="#E9D5FF" stroke="#9F7AEA" stroke-width="4"/>
+  <circle cx="400" cy="300" r="100" fill="#DDD6FE" stroke="#9F7AEA" stroke-width="4"/>
+  <circle cx="400" cy="300" r="50" fill="#C4B5FD" stroke="#9F7AEA" stroke-width="4"/>
+  
+  <!-- Arrows -->
+  <path d="M250 300 L 350 300" stroke="#EC4899" stroke-width="8"/>
+  <path d="M340 290 L 350 300 L 340 310" stroke="#EC4899" stroke-width="8" fill="none"/>
+  
+  <path d="M400 150 L 400 250" stroke="#EC4899" stroke-width="8"/>
+  <path d="M390 240 L 400 250 L 410 240" stroke="#EC4899" stroke-width="8" fill="none"/>
+  
+  <path d="M550 300 L 450 300" stroke="#EC4899" stroke-width="8"/>
+  <path d="M460 290 L 450 300 L 460 310" stroke="#EC4899" stroke-width="8" fill="none"/>
+  
+  <!-- Career Icons -->
+  <circle cx="200" cy="200" r="30" fill="#9F7AEA"/>
+  <circle cx="600" cy="200" r="30" fill="#9F7AEA"/>
+  <circle cx="200" cy="400" r="30" fill="#9F7AEA"/>
+  <circle cx="600" cy="400" r="30" fill="#9F7AEA"/>
+  
+  <!-- Center Icon -->
+  <circle cx="400" cy="300" r="20" fill="#EC4899"/>
+</svg> 
