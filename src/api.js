@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:8000"; 
+const API_BASE_URL = "https://skillpilot-backend.onrender.com"; 
 
 export const fetchCareerData = async () => {
   try {

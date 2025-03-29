@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "../ui/Card";
-import Button from "../ui/Button";
 import TextArea from "../ui/TextArea";
 
 const Skills = ({ formData, handleChange }) => {

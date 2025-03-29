@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
+import API_BASE_URL from "../config";
 
 const CAREER_ROLES = [
   "Software Development and Engineering",
@@ -23,7 +24,7 @@ const ResumeAnalysis = () => {
   useEffect(() => {
     const fetchCareerInsights = async () => {
       try {
-        const response = await axios.get("http://localhost:8000/careers");
+        const response = await axios.get(`${API_BASE_URL}/careers`);
         setCareerInsights(response.data);
       } catch (err) {
         console.error("Error fetching career insights:", err);
@@ -103,7 +104,7 @@ const ResumeAnalysis = () => {
         formData.set("required_skills", roleInsights["In-Demand Skills"]);
 
         const response = await axios.post(
-          "http://localhost:8000/analyze-resume",
+          `${API_BASE_URL}/analyze-resume`,
           formData,
           {
             headers: {

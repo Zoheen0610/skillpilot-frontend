@@ -8,6 +8,7 @@ import Skills from "./sections/Skills";
 import AdditionalInfo from "./sections/AdditionalInfo";
 import Button from "./ui/Button";
 import Card from "./ui/Card";
+import API_BASE_URL from "../config";
 
 const ResumeBuilder = () => {
   const [formData, setFormData] = useState({
@@ -185,7 +186,7 @@ const ResumeBuilder = () => {
       }
 
       const response = await axios.post(
-        "http://localhost:8000/generate-resume",
+        `${API_BASE_URL}/generate-resume`,
         formattedData,
         {
           headers: {

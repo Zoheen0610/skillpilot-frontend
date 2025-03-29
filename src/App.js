@@ -4,6 +4,7 @@ import HomePage from "./components/HomePage";
 import CareerPredictionPage from "./components/CareerPredictionPage";
 import ResumeToolsPage from "./components/ResumeToolsPage";
 import Navbar from "./components/Navbar";
+import API_BASE_URL from "./config";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -14,7 +15,7 @@ function App() {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch("http://localhost:8000/predict", {
+      const response = await fetch(`${API_BASE_URL}/predict`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
