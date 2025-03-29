@@ -6,6 +6,7 @@ import ResumeToolsPage from "./components/ResumeToolsPage";
 import Navbar from "./components/Navbar";
 import API_BASE_URL from "./config";
 
+
 function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
