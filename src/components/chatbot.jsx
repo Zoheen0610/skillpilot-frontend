@@ -10,7 +10,7 @@ const ChatBot = () => {
   const [messages, setMessages] = useState([]);
   const [loading, setLoading] = useState(false);
   const messagesEndRef = useRef(null);
-  const [sessionId, setSessionId] = useState(
+  const [sessionId] = useState(
     localStorage.getItem("session_id") || generateSessionId()
   );
 
