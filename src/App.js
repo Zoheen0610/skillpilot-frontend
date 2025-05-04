@@ -4,8 +4,8 @@ import HomePage from "./components/HomePage";
 import CareerPredictionPage from "./components/CareerPredictionPage";
 import ResumeToolsPage from "./components/ResumeToolsPage";
 import Navbar from "./components/Navbar";
+import ChatBot from "./components/chatbot"; // Make sure the file name matches exactly
 import API_BASE_URL from "./config";
-
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -21,7 +21,7 @@ function App() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ skills, interests }),
+        body: JSON.stringify({ skills: `${skills} ${interests}` }),
       });
 
       if (!response.ok) {
@@ -31,7 +31,7 @@ function App() {
       const data = await response.json();
       setCareerData(data);
     } catch (err) {
-      setError(err.message); //failed to fetch
+      setError(err.message);
     } finally {
       setLoading(false);
     }
@@ -56,6 +56,7 @@ function App() {
           />
           <Route path="/resume-tools" element={<ResumeToolsPage />} />
         </Routes>
+        <ChatBot />
       </div>
     </Router>
   );
